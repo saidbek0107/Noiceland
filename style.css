@@ -1,0 +1,992 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Source Code Pro', monospace; */
+    /* font-family: 'Libre Franklin', sans-serif; */
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 1440px;
+}
+
+.nav__menu {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-left: 829px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000;
+    transition: .5s;
+}
+
+a:hover {
+    color: rgb(0, 0, 255);
+}
+
+.navbar {
+    display: flex;
+}
+
+nav .bars {
+    display: none;
+    border: none;
+    background: transparent
+}
+
+
+
+/* ==============  NAV--END=============== */
+
+.title {
+    width: 90px;
+    color: #999;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.big_title {
+    margin-top: 18px;
+    width: 429px;
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    text-transform: uppercase;
+}
+
+.text {
+    width: 419px;
+    color: #666;
+    font-family: 'Source Code Pro', monospace;
+    margin-top: 27px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 28px;
+}
+
+.img_text {
+    display: flex;
+    gap: 51px;
+}
+
+/* ===============  HEADER---END ========== */
+
+/* font-family: 'Source Code Pro', monospace; */
+/* font-family: 'Libre Franklin', sans-serif; */
+
+.card_title1 {
+    margin-top: 24px;
+    color: #999;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.card_bgtitle1 {
+    width: 347px;
+    color: #000;
+    margin-top: 18px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.bywho {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px;
+    margin-top: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+
+.card_bgtitle2 {
+    width: 383px;
+    color: #000;
+    margin-top: 18px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+
+.card_bgtitle3 {
+    width: 353px;
+    color: #000;
+    margin-top: 18px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.card_bgtitle4 {
+    width: 327px;
+    color: #000;
+    margin-top: 18px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.card_bgtitle5 {
+    width: 364px;
+    color: #000;
+    margin-top: 18px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.card_bgtitle6 {
+    width: 364px;
+    color: #000;
+    margin-top: 18px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.card4 {
+    margin-top: 50px;
+}
+
+.card5 {
+    margin-top: 50px;
+}
+
+.card6 {
+    margin-top: 50px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.line {
+    width: 1200px;
+    height: 1px;
+    margin-top: 90px;
+    background: #d1d0d0;
+}
+
+/* =============  HEADER-WRAPPER---END -===== */
+
+h3 {
+    color: #999;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 1px;
+}
+
+.card_bg_title1 {
+    margin-top: 18px;
+    width: 276px;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.card_bgtitle-1 {
+    width: 281px;
+    margin-top: 18px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.card_bgtitle-2 {
+    width: 281px;
+    margin-top: 18px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.card_bgtitle-3 {
+    width: 261px;
+    margin-top: 18px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.card_bgtitle-4 {
+    width: 244px;
+    margin-top: 18px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.card_bgtitle-5 {
+    width: 282px;
+    margin-top: 18px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.card_bgtitle-6 {
+    width: 231px;
+    margin-top: 18px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.card-1 {
+    margin-top: 50px;
+}
+
+.card-2 {
+    margin-top: 50px;
+}
+
+.card-3 {
+    margin-top: 50px;
+}
+
+.card-4 {
+    margin-top: 50px;
+}
+
+.card-5 {
+    margin-top: 50px;
+}
+
+.card-6 {
+    margin-top: 50px;
+}
+
+.card-7 {
+    margin-top: 50px;
+}
+
+.card-8 {
+    margin-top: 50px;
+}
+
+.card_bg_title2 {
+    width: 280px;
+    margin-top: 18px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.cards2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.btn {
+    width: 205px;
+    height: 54px;
+    border: 1px solid #000;
+    background: transparent;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: .4s;
+    margin-left: 500px;
+    margin-top: 90px;
+}
+
+.btn:hover {
+    background: #4262FF;
+}
+
+/* =====================   SECTION  ======END */
+.bg_title1 {
+    margin-top: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.bg_title2 {
+    width: 515px;
+    margin-top: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.bg_title3 {
+    width: 515px;
+    margin-top: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.bg_title4 {
+    width: 543px;
+    margin-top: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.bg-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card_div1 {
+    margin-top: 120px;
+}
+
+.card_div2 {
+    margin-top: 120px;
+}
+
+.card_div3 {
+    margin-top: 50px;
+}
+
+.card_div4 {
+    margin-top: 50px;
+}
+
+/* ==================  SECTION-WRAPPER -----END  =====0 */
+.bg_back {
+    width: 1200px;
+    height: 617px;
+    background: #141414;
+}
+
+.logo_year {
+    display: flex;
+    gap: 15px;
+}
+
+.year {
+    color: #666;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    font-family: 'Libre Franklin', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.line2 {
+    width: 1000px;
+    height: 1px;
+    margin-top: 60px;
+    background: #4D4D4D;
+}
+
+.cate_title {
+    color: #666;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.ani_title {
+    color: #FFF;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.ani_title2 {
+    color: #FFF;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 149px;
+    margin-left: 149px;
+}
+
+.ani_title3 {
+    color: #FFF;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 115px;
+}
+
+.ani_title4 {
+    color: #FFF;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 81px;
+}
+
+.ani_title:hover{
+    color: #4262FF;
+    transition: .4s;
+}
+
+.ani_title2:hover{
+    color: #4262FF;
+    transition: .4s;
+}
+
+.ani_title3:hover{
+    color: #4262FF;
+    transition: .4s;
+}
+
+.ani_title4:hover{
+    color: #4262FF;
+    transition: .4s;
+}
+
+.ani_titles {
+    display: flex;
+    margin-top: 20px;
+}
+
+.inter_title {
+    color: #FFF;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.inter_title2 {
+    color: #FFF;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.inter_title3 {
+    color: #FFF;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.inter_title4 {
+    color: #FFF;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.inter_title:hover{
+    color: #4262FF;
+    transition: .4s;
+}
+
+.inter_title2:hover{
+    color: #4262FF;
+    transition: .4s;
+}
+
+.inter_title3:hover{
+    color: #4262FF;
+    transition: .4s;
+}
+
+.inter_title4:hover{
+    color: #4262FF;
+    transition: .4s;
+}
+
+.inter_titles {
+    display: flex;
+    gap: 100px;
+    margin-top: 15px;
+}
+
+.email {
+    border: none;
+    width: 221px;
+    height: 48px;
+    border: 2px solid #CCC;
+    padding-left: 24px;
+    margin-top: 24px;
+    transition: .5s;
+}
+
+.email:hover {
+    border: 3px solid #4262FF;
+}
+
+.send_email {
+    width: 79px;
+    height: 48px;
+    background: #000;
+    border: none;
+}
+
+.send_email:hover{
+    background: #fff;
+    border:#434343;
+    color: #000;
+}
+
+.send_email:active{
+    scale: 0.95;
+    background: rgb(1, 189, 1);
+}
+
+.subs_title {
+    color: #666;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+
+.send_email {
+    color: #FFF;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.small_send {
+    display: flex;
+    gap: 114px;
+    margin-top: 60px;
+}
+
+.infor_title1 {
+    color: #666;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+}
+
+.infor_title2 {
+    color: #FFF;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 20px;
+}
+
+.infor_title3 {
+    color: #FFF;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 10px;
+}
+
+.infor_title4 {
+    color: #FFF;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 10px;
+}
+
+.infor_title:hover{
+    color: #4262FF;
+    transition: .4s;
+}
+
+.infor_title2:hover{
+    color: #4262FF;
+    transition: .4s;
+}
+
+.infor_title3:hover{
+    color: #4262FF;
+    transition: .4s;
+}
+
+.infor_title4:hover{
+    color: #4262FF;
+    transition: .4s;
+}
+
+.infor_fol_tem{
+    display: flex;
+    gap:136px;
+    margin-top: 70px;
+}
+
+.nav_back{
+    padding-top: 90px;
+    margin-left: 100px;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:541px) {
+
+    nav .bars {
+        display: block;
+        background: transparent;
+        font-size: 1.8rem;
+        cursor: pointer;
+        margin-left: 320px
+    }
+
+    nav .bars#close-menu-btn {
+        display: none;
+    }
+
+    .nav__menu {
+        position: fixed;
+        top: 5rem;
+        right: 6%;
+        height: fit-content;
+        width: 18rem;
+        flex-direction: column;
+        gap: 0;
+        display: none;
+    }
+
+    .nav__menu li {
+        width: 100%;
+        height: 5.8rem;
+        animation: animateNavItems 400ms linear forwards;
+        transform-origin: top right;
+        opacity: 0;
+    }
+
+    .nav__menu li :nth-child(2) {
+        animation-delay: 200ms;
+    }
+
+    .nav__menu li:nth-child(3) {
+        animation-delay: 400ms;
+    }
+
+    .nav__menu li:nth-child(4) {
+        animation-delay: 600ms;
+    }
+
+
+    @keyframes animateNavItems {
+        0% {
+            transform: rotateZ(-20deg) rotateX(90deg) scale(0.1);
+        }
+
+        100% {
+            transform: rotateZ(0) rotateX(0) scale(1);
+            opacity: 1;
+        }
+    }
+
+    .nav__menu li a {
+        background: #4262FF;
+        border-radius: 4px;
+        color: #fff;
+        width: 100%;
+        height: 100%;
+        display: grid;
+        place-items: center;
+        box-shadow: -2rem 2rem 6rem rgba(0, 0, 0, 0.6);
+    }
+
+    ul li a:hover {
+        background: #050038;
+    }
+
+
+
+
+    /* ===============  NAV ---END  ============ */
+
+    .img_text {
+        display: block;
+    }
+
+    .bg {
+        width: 500px;
+        height: 450px;
+    }
+
+    .header_div {
+        margin-top: 50px;
+    }
+
+    .big_title {
+        font-size: 30px;
+    }
+
+    /* ===================  HEADER--END ========== */
+
+    .card_bgtitle1 {
+        font-size: 17px;
+    }
+
+    .card_bgtitle2 {
+        font-size: 17px;
+    }
+
+    .card_bgtitle3 {
+        font-size: 17px;
+    }
+
+    .card_bgtitle4 {
+        font-size: 17px;
+    }
+
+    .card_bgtitle5 {
+        font-size: 17px;
+    }
+
+    .card_bgtitle6 {
+        font-size: 17px;
+    }
+
+    .card2 {
+        margin-left: 90px;
+        margin-top: 30px;
+    }
+
+    .card3 {
+        margin-top: 30px;
+    }
+
+    .card4 {
+        margin-left: 90px;
+        margin-top: 30px;
+    }
+
+    .card5 {
+        margin-top: 30px;
+    }
+
+    .card6 {
+        margin-left: 90px;
+        margin-top: 30px;
+    }
+
+    .line {
+        width: 500px;
+    }
+
+    /* ===========  HEADER-WRAPPER---END  ----------- */
+
+    .card-2 {
+        margin-left: 190px;
+    }
+
+    .card-4 {
+        margin-left: 190px;
+    }
+
+    .card-6 {
+        margin-left: 190px;
+    }
+
+    .card-8 {
+        margin-left: 190px;
+    }
+
+    .btn {
+        margin-left: 130px;
+    }
+
+    .img1{
+        width: 470px;
+        height: 300px;
+    }
+
+    .img2{
+        width: 470px;
+        height: 300px;
+    }
+
+    .img3{
+        width: 470px;
+        height: 300px;
+    }
+
+    .img4{
+        width: 470px;
+        height: 300px;
+    }
+
+    .bg_title1{
+        font-size: 15px;
+    }
+
+    .bg_title2{
+        font-size: 15.5px;
+    }
+
+    .bg_title3{
+        font-size: 15px;
+    }
+
+    .bg_title4{
+        font-size: 15px;
+    }
+    /* =============================== */
+
+    .bg_back{
+        width: 480px;
+        height: 760px;
+    }
+
+    .nav_back{
+        padding-top: 45px;
+        margin-left: 55px;
+    }
+
+    .line2{
+        width: 410px;
+    }
+
+    .ani_titles{
+        display: block;
+    }
+
+    .ani_title{
+        margin-left: 1px;
+    }
+
+    .ani_title2{
+        margin-left: 1px;
+    }
+
+    .ani_title3{
+        margin-left: 1px;
+    }
+
+    .ani_title4{
+        margin-left: 1px;
+    }
+
+    .inter_titles{
+        display: block;
+        margin-top: 30px;
+    }
+
+    .infor_fol_tem{
+        gap: 60px;
+    }
+
+    .small_send{
+        gap: 80px;
+    }
+
+  
+}
